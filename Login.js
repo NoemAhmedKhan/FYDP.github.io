@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const password = document.querySelector('#password').value;
             
             if (password === 'user'){
-                window.location.href = 'https://noemahmedkhan.github.io/FYDP.github.io//UserDashboard.html'
+                window.location.href = 'https://noemahmedkhan.github.io/FYDP.github.io/UserDashboard.html'
             }else if (password === 'pharmacy'){
-                window.location.href = 'https://noemahmedkhan.github.io/FYDP.github.io//PharmDashboard.html'
+                window.location.href = 'https://noemahmedkhan.github.io/FYDP.github.io/PharmDashboard.html'
             }
             // Basic validation
             // if (!email || !password) {
