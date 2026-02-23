@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const password = document.querySelector('#password').value;
             
             if (password === 'user'){
-                window.location.href = '/UserDashboard.html'
+                window.location.href = 'UserDashboard.html'
             }else if (password === 'pharmacy'){
-                window.location.href = '/PharmDashboard.html'
+                window.location.href = 'PharmDashboard.html'
             }
             // Basic validation
             // if (!email || !password) {
